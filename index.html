@@ -1,0 +1,42 @@
+<!-- Nombre Completo (input) Minimo 15 caracteres 
+         Rut (input) Largo minimo 10
+         Correo (input) solo gmail || outlook || live 
+        
+         Debe ser integrago con Bootstrap
+         JS debe ser externo
+         Tiene que quedar ordenado
+    -->
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <script src="/js/funciones.js"></script>
+        <title>Actividad con JavaScript - 1</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <form action="" class="col-4 mx-auto text-center mt-5 p-4 shadow-lg">
+                <legend>Formulario</legend>
+                <div class="mb-3 text-start">
+                    <label class="" for="nombre">Nombre: </label>
+                    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese el Nombre completo">
+                </div>
+                <div class="mb-3 text-start">
+                    <label class="" for="rut">Rut: </label>
+                    <input class="form-control" type="text" name="rut" id="rut" placeholder="Ingrese el Rut">         
+                </div>
+                <div class="mb-3 text-start">
+                    <label class="" for="correo">Correo: </label>
+                    <input class="form-control" type="email" name="Correo" id="Correo" placeholder="Ingrese el Correo">
+                </div>
+                <div class="mb-3">
+                    <button type="button" onclick="validar()" class="btn btn-primary">Validar</button>
+                </div>
+            </form>
+        </div>
+
+        <script src="/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
